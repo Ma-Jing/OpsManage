@@ -37,10 +37,13 @@
 # vi /usr/bin/yum  
 将文件头部的
 #!/usr/bin/python
-
 改成
 #!/usr/bin/python2.6.6
+
+#安装python27-devel
+yum -y install python27-devel
 ```
+
 二、安装easy_install
 ```
 # wget --no-check-certificate  https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22
